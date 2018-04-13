@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.navbar .nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bg-green {
+    background-color: #289E42;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#000;
+    opacity: .7
+}
+
+.navbar-brand .navbar-logo {
+    font-family: 'Roboto Condensed';
+    font-weight: 900;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.carousel-item h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.carousel-item p {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.title {
+    color: #1f7532;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.bold_green {
+    color: #1f7532;
+    font-weight: 900;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.box:hover {
+    background-color: #1f7532;
+    color: #FFF;
+}
+
+a[aria-expanded='true'] {
+    background-color: #1f7532;
+    color: #FFF;
+}
+
+.box {
+    background-color: #e8eae3;
+    padding: 20px;
+    width: 100%;
+    color: #000;
+}
